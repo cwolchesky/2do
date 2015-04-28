@@ -1,3 +1,4 @@
-module.exports = function createItem(req, res) {
+module.exports = function createItem(req, res, next) {
 	res.send({hey: 'there'});
+	next();
 };
