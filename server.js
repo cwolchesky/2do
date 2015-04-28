@@ -7,3 +7,5 @@ var options = {
 var server = restify.createServer(options);
 
 module.exports = server;
+
+require('./routes');
